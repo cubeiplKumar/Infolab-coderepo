@@ -22,7 +22,20 @@ public class ConsoleApplet extends java.applet.Applet
           // to do inuput/output in your program.
       console.putln("Hello World!");
    }
-   
+  # feature202 changes by Srikanth on MutualBonds module Oct2023
+  public static String getGrade(int percentage ) {       
+               if(percentage&amp;gt;=60){  
+                   System.out.println("A grade"); 
+                   return "A grade"; //Return statement
+               }else if(percentage&amp;gt;=40){  
+                   System.out.println("B grade"); 
+                   return "B grade"; //Return statement
+               }else {  
+                   System.out.println("Not Eligible");  
+                   return "Not Eligible"; //Return statement
+               }
+          }
+ 
 
    // The remainder of this file consists of implementation details that
    // you don't have to understand in order to write your own console applets.
