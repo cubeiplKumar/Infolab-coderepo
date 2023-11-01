@@ -22,6 +22,15 @@ public class ConsoleApplet extends java.applet.Applet
           // to do inuput/output in your program.
       console.putln("Hello World!");
    }
+   # feature201 changes by UDAY on SIP investments module oct2023
+   public class DemoClass{
+public static int  sampleMethod(int a,int b) throws ArithmeticException{ 
+//[1] int as data type of return value
+      System.out.println("Hello, this is sample method");
+      int c = a/b; // int c = 4 / 2 gets calculated as 2 
+      System.out.println("c:"+c); // c: 2
+      return c;//return statement 
+ } 
    
 
    // The remainder of this file consists of implementation details that
