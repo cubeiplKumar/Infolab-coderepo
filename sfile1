@@ -10,10 +10,6 @@ Working on Banking Policies
 # Interest rates need to be revised
 Corporate investments
 Educational Loans
-#03NovChanges
-Rate of Interest
-Home Loans
-#webhook job configuration demo
-Jenkins Github Webhook job configuration
-when any change done by developer in Github repo, 
-Github notifies to jenkins server
+
+
+
